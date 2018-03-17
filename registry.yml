@@ -37,6 +37,7 @@ spec:
   - port: 5000
     protocol: TCP
     targetPort: 5000
+    nodePort: 32030
   selector:
     run: registry
   sessionAffinity: None
